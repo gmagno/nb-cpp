@@ -1,0 +1,11 @@
+.vscode/
+.venv/
+.tox/
+.eggs/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+nb_cpp.egg-info/
+eigen/
+pybind11/
