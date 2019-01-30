@@ -9,8 +9,7 @@ from setuptools.command.build_ext import build_ext
 from distutils.version import LooseVersion
 
 
-
-version = '0.0.5'
+version = '0.0.8'
 
 # Get the long description from the README file
 here = os.path.abspath(os.path.dirname(__file__))
@@ -106,7 +105,6 @@ setup(
         'Topic :: Scientific/Engineering',
         'Programming Language :: Python :: 3',
     ],
-    # install_requires=requirements,
     extras_require={
         'dev': requirements_dev,
     },
